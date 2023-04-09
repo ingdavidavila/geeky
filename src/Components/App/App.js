@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import NavScrollExample from '../NavBar/NavBar';
 import '../Home' 
-
+import Header from '../Header/Header';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <Router>
     <div className="App">
       <NavScrollExample />
-      <header />
+      <Header />
         
         <Switch>
             <Route exact path="./home">
@@ -24,8 +24,6 @@ function App() {
               <Contact />
             </Route>
           </Switch>
-        
-      </header>
       <footer>
         <h4>Copyright 2023 </h4>
         <h4 className='brand'>Geeks & Jocks a Geeky Brand</h4>
