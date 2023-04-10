@@ -1,9 +1,12 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  background-image: url('../Images/Backgorund.png');
+  background-image: url('../Components/Images/Backgorund.png');
   background-size: cover;
   min-height: 100dvh;
   display: flex;
@@ -18,11 +21,6 @@
   color: #61dafb;
 }
 
-footer{
-  background-color: black;
-  color: antiquewhite;
-  font-family: 'Times New Roman', Times, serif;
-}
 
 h4 .brand{
   align-self: right;

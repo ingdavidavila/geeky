@@ -1,10 +1,9 @@
 import React from "react";
-import './header.css';
+import './Header.css';
+import NavScrollExample from "../Features/NavBar/NavBar";
 
-export class Header React.Component{
-    render(){
-
-    }
+export default function Header() {
+    return(
+        <NavScrollExample />
+    );
 }
-
-export default Header;
